@@ -1,18 +1,320 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ShowActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="horizontal">
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/zm_1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="a"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="o"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="e"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="i"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_5"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="u"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_6"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ü"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zm_7"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ai"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_8"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ei"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_9"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ui"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_10"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ao"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_11"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ou"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_12"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="iu"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zm_13"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ie"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_14"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="üe"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_15"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="er"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_16"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="an"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_17"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="en"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_18"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="in"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zm_19"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="un"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_20"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ün"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_21"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ang"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_22"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="eng"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_23"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ing"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/zm_24"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="ong"
+            android:textSize="30dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+</LinearLayout>
